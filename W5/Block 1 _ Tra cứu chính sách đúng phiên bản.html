@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!-- saved from url=(0098)https://pub.nndkhoa9.win/agentic-ai-engineering/d05-tool-use-skill-use/exercise-block-1.html#build -->
+<html lang="vi"><script src="chrome-extension://nimlmejbmnecnaghgmbahmbaddhjbecg/libs/extend-native-history-api.js"></script><script src="chrome-extension://nimlmejbmnecnaghgmbahmbaddhjbecg/libs/requests.js"></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Block 1 | Tra cứu chính sách đúng phiên bản</title>
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./Block 1 _ Tra cứu chính sách đúng phiên bản_files/css2" rel="stylesheet">
+<style>
+:root{--bg:#f6f3ee;--paper:#fffdf9;--ink:#322b25;--muted:#74675b;--coffee:#795438;--cream:#ede3d5;--line:#ded4c7;--accent:#516044}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.8 'Be Vietnam Pro',Arial,sans-serif}a{color:var(--coffee);text-underline-offset:4px}header,main,footer{max-width:1060px;margin:auto;padding:0 28px}header{padding-top:52px;padding-bottom:30px}.eyebrow{font-size:12px;letter-spacing:.13em;font-weight:700;text-transform:uppercase;color:var(--coffee)}h1{font-size:clamp(30px,5vw,48px);line-height:1.25;letter-spacing:-.04em;margin:18px 0}h2{font-size:23px;line-height:1.4;margin:0 0 16px}h3{font-size:17px;margin:22px 0 10px}.lead{max-width:780px;color:var(--muted);font-size:17px}.tags{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0}.tag{border:1px solid var(--line);border-radius:30px;padding:5px 14px;font-size:12px;font-weight:600}nav{display:flex;gap:18px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:20px;font-size:13px}section{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:30px;margin-bottom:20px;scroll-margin-top:20px}.section-label{color:var(--coffee);font-size:12px;font-weight:700;letter-spacing:.08em;margin-bottom:8px}p{margin:10px 0 16px}ul,ol{padding-left:24px}li{margin:7px 0}code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.9em;background:var(--cream);border-radius:4px;padding:2px 5px;overflow-wrap:anywhere}pre{background:#eee7dd;border:1px solid var(--line);border-radius:10px;padding:18px;overflow:auto;line-height:1.65;font-size:13px}pre code{background:none;padding:0;overflow-wrap:normal}.note{border-left:4px solid var(--coffee);background:#f4eee5;padding:15px 18px;border-radius:0 8px 8px 0;margin:18px 0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{background:#f7f3ed;border:1px solid var(--line);border-radius:12px;padding:20px}.card h3{margin-top:0}.table-wrap{overflow:auto}table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;vertical-align:top;padding:13px;border-bottom:1px solid var(--line)}th{background:var(--cream);font-weight:600}.checklist{list-style:none;padding:0}.checklist li{position:relative;padding-left:28px}.checklist li:before{content:'';position:absolute;left:0;top:8px;width:13px;height:13px;border:1.5px solid var(--coffee);border-radius:3px}footer{padding-top:10px;padding-bottom:38px;color:var(--muted);font-size:12px}.step{display:inline-block;color:var(--accent);font-weight:600;font-size:12px;margin-bottom:8px}@media(max-width:640px){header,main,footer{padding-left:18px;padding-right:18px}header{padding-top:30px}section{padding:22px 18px}.grid{grid-template-columns:1fr}h2{font-size:21px}}@media print{body{background:white;font-size:11px}header{padding-top:0}header,main,footer{max-width:none;padding-left:0;padding-right:0}nav{display:none}section{border-radius:0;padding:18px;break-inside:auto}h2,h3{break-after:avoid}pre,.card,tr{break-inside:avoid}a{color:inherit}.tags{margin:12px 0}h1{font-size:30px}}
+</style>
+<style>
+:root{--accent:#895f40}
+body{font-size:18px;background:radial-gradient(ellipse at 0 0,#e8d6bf99,transparent 42%),radial-gradient(ellipse at 100% 35%,#dec6ae77,transparent 38%),var(--bg)}
+header,main,footer{max-width:1180px}
+header{position:relative;isolation:isolate;padding-top:60px}
+header:before{content:'';position:absolute;z-index:-1;inset:22px 0 28px;border-radius:28px;background:linear-gradient(120deg,#eee0ccdd,#f8f3e8aa 52%,#e5ccb4bb);border:1px solid #e4d6c5}
+header:after{content:'';position:absolute;z-index:-1;width:180px;height:180px;right:36px;top:50px;border-radius:42px;transform:rotate(12deg);background:linear-gradient(140deg,#3b2418,#795438);border:1px solid #9b7453;box-shadow:0 18px 38px #3b241826}
+.eyebrow{font-size:14px;letter-spacing:.09em;position:relative}
+h1{font-size:clamp(36px,5vw,56px);max-width:850px}
+h2{font-size:28px;display:flex;align-items:center;gap:14px}
+h3{font-size:21px}.lead{font-size:21px;max-width:870px}
+.tags{gap:10px}.tag{font-size:15px;display:inline-flex;align-items:center;gap:9px;background:#fffdf9b3;padding:8px 16px}
+nav{font-size:16px;gap:10px;padding-bottom:12px}
+nav a{display:inline-flex;align-items:center;gap:8px;background:#fffdf99c;border:1px solid #ded4c7;border-radius:10px;padding:8px 12px;text-decoration:none}
+nav a:hover{background:#fffdf9;border-color:var(--coffee)}
+section{padding:34px;margin-bottom:24px;box-shadow:0 8px 28px #694b2710}
+.section-label{font-size:14px}.step{font-size:15px}
+pre{font-size:16px;padding:22px;background:linear-gradient(125deg,#eee4d6,#f5f0e8)}
+.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.card{min-width:0}
+table{font-size:16px}th,td{padding:16px}.card{background:linear-gradient(135deg,#f2e8d9,#fbf8f1)}
+.note{background:linear-gradient(110deg,#eee0cc,#f6f1e7 65%,#ead8c5);padding:20px 22px}
+.icon{width:22px;height:22px;flex-shrink:0;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.title-icon{width:48px;height:48px;padding:10px;box-sizing:content-box;border:1px solid #8c6548;background:linear-gradient(140deg,#3b2418,#6b442c);border-radius:20px;color:#fff4e6;display:block;margin-bottom:22px;box-shadow:0 10px 20px #3b241826}
+.heading-icon{width:46px;height:46px;padding:11px;background:linear-gradient(135deg,#ecdbc3,#f8f2e7);border-radius:13px;color:var(--coffee)}
+.decor{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:0 0 24px}
+.decor-card{padding:24px;border-radius:18px;border:1px solid #dacbb6;background:linear-gradient(125deg,#e7cba9,#f3e8d6);display:flex;align-items:center;gap:16px}
+.decor-card:nth-child(2){background:linear-gradient(125deg,#3b2418,#6b442c);border-color:#795438;color:#fff4e6}
+.decor-card:nth-child(3){background:linear-gradient(125deg,#e1cfbd,#f6ede3)}
+.decor-card .icon{width:32px;height:32px;color:var(--coffee)}
+.decor-card strong{display:block;font-size:18px;line-height:1.4}.decor-card span{font-size:14px;color:#645747}
+.decor-card:nth-child(2) .icon{color:#f0ceaa}.decor-card:nth-child(2) span{color:#ecd7c3}
+footer{font-size:15px}
+@media(max-width:760px){.decor{grid-template-columns:1fr}.decor-card{padding:18px}.grid{grid-template-columns:1fr}header:after{width:110px;height:110px;right:20px;top:50px;opacity:.45}h2{font-size:24px}}
+@media(max-width:640px){body{font-size:17px}.lead{font-size:19px}header{padding-top:48px}header:before{inset:16px 8px 22px}section{padding:24px 20px}nav{font-size:14px}.tag{font-size:14px}pre{font-size:15px}table{font-size:15px}}
+@media print{body{font-size:11px;background:white}header:before,header:after,.decor{display:none}header{padding-top:0}.title-icon{display:none}h1{font-size:30px}h2{font-size:20px}h3{font-size:15px}.lead{font-size:13px}.tag,.section-label,.step,footer{font-size:11px}pre,table{font-size:10px}section{padding:18px;box-shadow:none}.heading-icon{width:28px;height:28px;padding:5px}}
+</style>
+<script bis_use="true" type="text/javascript" charset="utf-8" nonce="" data-dynamic-id="4bbdcfbc-b606-4636-a932-a6cf8cbc5e7a" src="chrome-extension://almalgbpmcfpdaopimbdchdliminoign/executors/200.js"></script></head>
+<body __processed_78e1eacb-59d8-4696-a11a-d502f4708d8b__="true" bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImFsbWFsZ2JwbWNmcGRhb3BpbWJkY2hkbGltaW5vaWduIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCIsIlBJTlRFUkVTVCI6ImRpc2FibGVkIiwiSU5TVEFHUkFNIjoiZGlzYWJsZWQiLCJUSUtUT0siOiJkaXNhYmxlZCIsIkxJTktFRElOIjoiZGlzYWJsZWQiLCJDT05GSUciOiJkaXNhYmxlZCJ9LCJ2ZXJzaW9uIjoiMi40LjAiLCJzY29yZSI6MjA0MDB9XQ==">
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+<!-- Lucide icons: ISC license, https://lucide.dev -->
+<symbol id="icon-book-open" viewBox="0 0 24 24"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></symbol>
+<symbol id="icon-folder" viewBox="0 0 24 24"><path d="M20 20H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2Z"></path></symbol>
+<symbol id="icon-terminal" viewBox="0 0 24 24"><path d="m4 17 6-6-6-6M12 19h8"></path></symbol>
+<symbol id="icon-check" viewBox="0 0 24 24"><path d="m9 12 2 2 4-4"></path><rect x="5" y="5" width="14" height="16" rx="2"></rect><rect x="9" y="3" width="6" height="4" rx="1"></rect></symbol>
+<symbol id="icon-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></symbol>
+<symbol id="icon-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"></path><circle cx="9" cy="7" r="4"></circle></symbol>
+<symbol id="icon-layers" viewBox="0 0 24 24"><path d="m12 3 10 6-10 6L2 9l10-6ZM2 15l10 6 10-6M2 12l10 6 10-6"></path></symbol>
+<symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M7 7h10v10M7 17 17 7"></path></symbol>
+</svg>
+<header>
+<div class="eyebrow" bis_skin_checked="1">Agentic AI Engineering / D05 / Bài luyện tập 01</div>
+<svg class="icon title-icon" aria-hidden="true"><use href="#icon-book-open"></use></svg><h1>Tra cứu chính sách<br>đúng phiên bản</h1>
+<p class="lead">Bổ sung khả năng tìm tài liệu cho agent, sau đó viết skill để chọn và áp dụng chính sách theo ngày mua của khách hàng.</p>
+<div class="tags" bis_skin_checked="1"><span class="tag"><svg class="icon " aria-hidden="true"><use href="#icon-layers"></use></svg>Stage 00 → 02</span><span class="tag"><svg class="icon " aria-hidden="true"><use href="#icon-clock"></use></svg>20 phút</span><span class="tag"><svg class="icon " aria-hidden="true"><use href="#icon-users"></use></svg>Nhóm 2 người</span><span class="tag"><svg class="icon " aria-hidden="true"><use href="#icon-terminal"></use></svg>Tool mới + skill mới</span></div>
+<nav aria-label="Mục lục"><a href="https://pub.nndkhoa9.win/agentic-ai-engineering/d05-tool-use-skill-use/exercise-block-1.html#prepare"><svg class="icon " aria-hidden="true"><use href="#icon-folder"></use></svg>Chuẩn bị</a><a href="https://pub.nndkhoa9.win/agentic-ai-engineering/d05-tool-use-skill-use/exercise-block-1.html#build"><svg class="icon " aria-hidden="true"><use href="#icon-terminal"></use></svg>Thực hiện</a><a href="https://pub.nndkhoa9.win/agentic-ai-engineering/d05-tool-use-skill-use/exercise-block-1.html#verify"><svg class="icon " aria-hidden="true"><use href="#icon-check"></use></svg>Kiểm tra</a><a href="https://pub.nndkhoa9.win/agentic-ai-engineering/d05-tool-use-skill-use/exercise-block-1.html#submit"><svg class="icon " aria-hidden="true"><use href="#icon-check"></use></svg>Nộp bài</a><a href="https://pub.nndkhoa9.win/agentic-ai-engineering/d05-tool-use-skill-use/exercise-block-2.html"><svg class="icon " aria-hidden="true"><use href="#icon-arrow"></use></svg>Sang block 2 →</a></nav>
+</header>
+<main>
+<div class="decor" aria-label="Lộ trình bài tập" bis_skin_checked="1">
+<div class="decor-card" bis_skin_checked="1"><svg class="icon" aria-hidden="true"><use href="#icon-folder"></use></svg><div bis_skin_checked="1"><strong>Tìm tài liệu</strong><span>Liệt kê thư mục bằng tool</span></div></div>
+<div class="decor-card" bis_skin_checked="1"><svg class="icon" aria-hidden="true"><use href="#icon-book-open"></use></svg><div bis_skin_checked="1"><strong>Chọn chính sách</strong><span>Áp dụng theo ngày mua</span></div></div>
+<div class="decor-card" bis_skin_checked="1"><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg><div bis_skin_checked="1"><strong>Kiểm tra kết quả</strong><span>Đối chiếu trace và tài liệu</span></div></div>
+</div>
+<section>
+<div class="section-label" bis_skin_checked="1">MỤC TIÊU</div><h2><svg class="icon heading-icon" aria-hidden="true"><use href="#icon-layers"></use></svg>Thêm tool tìm tài liệu và skill tra cứu</h2>
+<p>Project mẫu chưa có tool liệt kê thư mục. Bạn phải cài đặt tool này, đăng ký cho agent và viết một skill mới. Agent cần tìm được tài liệu ngay cả khi tên file thay đổi.</p>
+<div class="note" bis_skin_checked="1"><strong>Giới hạn thay đổi:</strong> được sửa mã nguồn tool và phần đăng ký tool. Không viết cố định tên file, nội dung chính sách hoặc đáp án trong system prompt hay mã nguồn tool.</div>
+</section>
+<section id="prepare">
+<div class="section-label" bis_skin_checked="1">01 / CHUẨN BỊ</div><h2><svg class="icon heading-icon" aria-hidden="true"><use href="#icon-folder"></use></svg>Dữ liệu chính sách</h2>
+<p>Dùng lab tại <code>demo/agent-tools-skills-lab/</code>. Làm trên bản sao các stage, giữ nguyên project mẫu. Dùng môi trường và cấu hình model đã thiết lập trong phần giảng.</p>
+<p>Ở bản sao stage 01 và stage 02, tạo hai file dưới <code>workspace/data/policies/</code>. Đường dẫn agent sử dụng là <code>data/policies/</code>, không có tiền tố <code>workspace/</code>.</p>
+<div class="grid" bis_skin_checked="1">
+<div class="card" bis_skin_checked="1"><h3><code>policy-before-oct.md</code></h3><pre><code># Chính sách hoàn tiền trước tháng 10
+Áp dụng cho ngày mua trước 2026-10-01.
+Được yêu cầu hoàn tiền trong 7 ngày kể từ ngày mua.
+Phí hoàn tiền: 10% giá trị đơn hàng.
+Không hoàn tiền nếu sản phẩm đã kích hoạt.</code></pre></div>
+<div class="card" bis_skin_checked="1"><h3><code>policy-from-oct.md</code></h3><pre><code># Chính sách hoàn tiền từ tháng 10
+Áp dụng cho ngày mua từ 2026-10-01, bao gồm ngày này.
+Được yêu cầu hoàn tiền trong 14 ngày kể từ ngày mua.
+Không thu phí hoàn tiền.
+Không hoàn tiền nếu sản phẩm đã kích hoạt.</code></pre></div>
+</div>
+<p><strong>Quy ước:</strong> số ngày là chênh lệch ngày lịch giữa ngày yêu cầu hoàn và ngày mua. Bằng đúng giới hạn vẫn đủ điều kiện về thời gian. Dùng ngày yêu cầu trong câu hỏi, không dùng ngày hiện tại của máy.</p>
+</section>
+<section id="build">
+<div class="section-label" bis_skin_checked="1">02 / THỰC HIỆN</div><h2><svg class="icon heading-icon" aria-hidden="true"><use href="#icon-terminal"></use></svg>Các bước thực hiện</h2>
+<h3><span class="step">Stage 00 / 2 phút</span><br>Xác định giới hạn của agent</h3>
+<p>Gửi câu hỏi ở trường hợp A, không dán nội dung chính sách vào chat. Ghi lại thông tin và khả năng agent còn thiếu để trả lời. Kiểm tra agent có kết quả đọc tài liệu hay chỉ trả lời từ kiến thức sẵn có.</p>
+<h3><span class="step">Stage 01 / 8 phút</span><br>Cài đặt tool <code>list_files</code></h3>
+<pre><code>list_files(path: str) → kết quả liệt kê thư mục</code></pre>
+<ul>
+<li>Liệt kê các mục trực tiếp trong thư mục, không duyệt đệ quy.</li>
+<li>Mỗi mục có tên, đường dẫn tương đối với workspace và loại <code>file</code> hoặc <code>directory</code>. Sắp xếp theo tên để kết quả ổn định.</li>
+<li>Tái sử dụng cách xử lý đường dẫn và cấu trúc kết quả/lỗi của tool file hiện có. Chỉ truy cập trong workspace, kể cả khi có <code>..</code>, đường dẫn tuyệt đối hoặc symlink dẫn ra ngoài.</li>
+<li>Đường dẫn không tồn tại hoặc là file phải trả lỗi rõ ràng, không trả danh sách rỗng như thể thư mục hợp lệ.</li>
+<li>Đăng ký tool để xuất hiện trong schema tools gửi model. Agent dùng <code>list_files</code> để tìm rồi dùng <code>read_file</code> để đọc tài liệu.</li>
+</ul>
+<h3><span class="step">Stage 02 / 10 phút</span><br>Thêm tool đã viết và tạo skill <code>refund-policy</code></h3>
+<pre><code>workspace/skills/refund-policy/
+  SKILL.md
+  references/answer-template.md</code></pre>
+<ul>
+<li>Frontmatter có <code>name</code> và <code>description</code>. Trường <code>description</code> nêu nhiệm vụ và điều kiện sử dụng skill.</li>
+<li>Skill hướng dẫn tìm tài liệu trong <code>data/policies/</code>, đọc phạm vi hiệu lực và chọn chính sách theo <strong>ngày mua</strong>.</li>
+<li>Nếu thiếu ngày mua, ngày yêu cầu hoàn hoặc trạng thái kích hoạt, hỏi lại trước khi kết luận.</li>
+<li>Reference quy định câu trả lời có: chính sách áp dụng, số ngày đã qua, kết luận đủ/không đủ điều kiện, phí nếu đủ điều kiện và đường dẫn tài liệu làm căn cứ.</li>
+<li>Không yêu cầu Bash hoặc script vì stage 02 chưa có khả năng đó.</li>
+</ul>
+<p>Tải lại trang để cập nhật catalog, mở cuộc trò chuyện mới và gửi câu hỏi ở phần kiểm tra. Không nhắc tên skill, tên file hoặc chỉ định thứ tự gọi tool trong câu hỏi.</p>
+</section>
+<section id="verify">
+<div class="section-label" bis_skin_checked="1">03 / KIỂM TRA</div><h2><svg class="icon heading-icon" aria-hidden="true"><use href="#icon-check"></use></svg>Các trường hợp kiểm tra</h2>
+<h3>Trường hợp A: mua trước ngày đổi chính sách</h3>
+<pre><code>Tôi mua ngày 28/09/2026, yêu cầu hoàn ngày 06/10/2026,
+chưa kích hoạt. Tôi có được hoàn không?</code></pre>
+<h3>Trường hợp B: mua từ ngày đổi chính sách</h3>
+<pre><code>Tôi mua ngày 02/10/2026, yêu cầu hoàn ngày 12/10/2026,
+chưa kích hoạt. Tôi có được hoàn không?</code></pre>
+<div class="table-wrap" bis_skin_checked="1"><table><thead><tr><th>Trường hợp</th><th>Kết quả cần đạt</th><th>Bằng chứng cần kiểm tra</th></tr></thead><tbody>
+<tr><td>A</td><td>Chọn chính sách cũ; 8 ngày; không đủ điều kiện.</td><td>Tool tìm file, đọc chính sách cũ; câu trả lời dẫn đúng tài liệu.</td></tr>
+<tr><td>B</td><td>Chọn chính sách mới; 10 ngày; đủ điều kiện, không phí.</td><td>Lịch sử có nội dung skill và reference; câu trả lời dẫn đúng tài liệu.</td></tr>
+<tr><td>Đổi tên file</td><td>Đổi tên hai file, giữ nội dung rồi chạy lại trường hợp A và B. Kết luận không thay đổi.</td><td>Cuộc trò chuyện mới tìm được file đã đổi tên, không sử dụng tài liệu từ lịch sử cũ.</td></tr>
+<tr><td>Thiếu thông tin</td><td>Hỏi “Tôi mua ngày 02/10/2026, muốn hoàn ngày 12/10/2026.” Agent hỏi trạng thái kích hoạt, chưa kết luận.</td><td>Không tự giả định “chưa kích hoạt”.</td></tr>
+</tbody></table></div>
+<h3>Kiểm tra tool trực tiếp</h3>
+<p>Gọi tool với một thư mục hợp lệ, một đường dẫn file, một đường dẫn không tồn tại và một đường dẫn vượt workspace. Ba trường hợp sau phải trả lỗi. Chỉ dùng dữ liệu giả, không thử đọc thông tin cá nhân hoặc thông tin bí mật.</p>
+</section>
+<section id="submit">
+<div class="section-label" bis_skin_checked="1">04 / NỘP BÀI</div><h2><svg class="icon heading-icon" aria-hidden="true"><use href="#icon-check"></use></svg>Yêu cầu nộp bài</h2>
+<ul class="checklist">
+<li>Mã nguồn tool mới và phần đăng ký tool ở stage 01, stage 02.</li>
+<li>Thư mục skill <code>refund-policy/</code> và hai tài liệu chính sách.</li>
+<li>Trace cho trường hợp A, trường hợp B sau khi đổi tên file và trường hợp thiếu thông tin. Không nộp <code>.env</code> hay API key.</li>
+<li><code>analysis.md</code>: kết quả kiểm tra tool, kết quả từng trường hợp và vị trí bằng chứng trong trace.</li>
+</ul>
+<div class="note" bis_skin_checked="1"><strong>Câu hỏi cuối bài:</strong> vì sao cần tool để tìm file và skill để hướng dẫn chọn chính sách? Nếu agent chưa có tool tìm file, việc sửa prompt có giải quyết được yêu cầu đổi tên file không? Giải thích.</div>
+</section>
+</main>
+<footer>Tool Use &amp; Skill Use / Block 1 <span aria-hidden="true">|</span> <a href="https://pub.nndkhoa9.win/agentic-ai-engineering/d05-tool-use-skill-use/exercise-block-2.html">Tiếp tục: kiểm tra quá tải theo người →</a></footer>
+<script>
+(() => {
+  const icon = (name, extra = '') => {
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('class', `icon ${extra}`);
+    svg.setAttribute('aria-hidden', 'true');
+    const use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
+    use.setAttribute('href', `#icon-${name}`);
+    svg.append(use);
+    return svg;
+  };
+  document.querySelector('h1').before(icon('book-open', 'title-icon'));
+  const sections = {prepare:'folder', build:'terminal', contract:'layers', verify:'check', submit:'check'};
+  document.querySelectorAll('main section').forEach(section => section.querySelector('h2').prepend(icon(sections[section.id] || 'layers', 'heading-icon')));
+  document.querySelectorAll('.tag').forEach((tag, index) => tag.prepend(icon(['layers','clock','users','terminal'][index])));
+  document.querySelectorAll('nav a').forEach(link => link.prepend(icon(sections[link.hash.slice(1)] || 'arrow')));
+})();
+</script>
+
+
+<div id="gt_parent" style="position: absolute; left: -9999px;" bis_skin_checked="1"></div></body></html>
