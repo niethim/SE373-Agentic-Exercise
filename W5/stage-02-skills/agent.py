@@ -1,4 +1,4 @@
-"""LangChain agent của stage 02: read_file, write_file + skill catalog trong system prompt."""
+"""LangChain agent của stage 02: read_file, write_file, list_files + skill catalog trong system prompt."""
 
 from langchain.agents import create_agent
 from langchain.agents.middleware import ModelCallLimitMiddleware, ToolCallLimitMiddleware
@@ -9,9 +9,9 @@ from config import MODEL_CALL_LIMIT, TOOL_CALL_LIMIT, Settings
 from observer import ObserverMiddleware
 from prompts import build_system_prompt
 from skill_catalog import Catalog, render_catalog, scan_skills
-from tools import read_file, write_file
+from tools import list_files, read_file, write_file
 
-TOOLS = [read_file, write_file]
+TOOLS = [read_file, write_file, list_files]
 
 
 def build_model(settings: Settings) -> ChatOpenAI:

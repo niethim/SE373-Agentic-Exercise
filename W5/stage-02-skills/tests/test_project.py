@@ -64,4 +64,4 @@ def test_project_has_only_its_own_modules():
     ]
     assert sorted(p.name for p in (ROOT / "tools").glob("*.py")) == ["__init__.py", "files.py"]
     assert sorted(p.name for p in (ROOT / "fixtures" / "skills").iterdir()) == ["weekly-report"]
-    assert sorted(p.name for p in (ROOT / "workspace" / "skills").iterdir()) == ["weekly-report"]
+    assert sorted(p.name for p in (ROOT / "workspace" / "skills").iterdir()) == ["refund-policy", "weekly-report"]

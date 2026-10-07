@@ -9,6 +9,7 @@ Quy tắc:
 
 CAPABILITY_PROMPT = """Workspace:
 - Mọi đường dẫn file đều tương đối workspace, ví dụ data/weekly_notes.md.
+- list_files liệt kê các file và thư mục con trong một thư mục thuộc workspace.
 - read_file đọc được file trong workspace. write_file chỉ ghi được dưới output/, ví dụ output/summary.md.
 - Bạn không chạy được lệnh shell trong project này."""
 

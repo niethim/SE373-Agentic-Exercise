@@ -1,4 +1,4 @@
-"""File tools: read_file và write_file trong workspace của project.
+"""File tools: read_file, write_file và list_files trong workspace của project.
 
 Path luôn tương đối workspace. Path được resolve (kể cả symlink) rồi kiểm tra vẫn nằm trong
 workspace (đọc) hoặc workspace/output (ghi). Lỗi dự kiến trả về JSON {"ok": false, "error": {...}}
@@ -73,6 +73,23 @@ def _write(workspace: Path, path: str, content: str) -> dict:
     return {"ok": True, "path": rel, "bytes": len(data), "status": status}
 
 
+def _list(workspace: Path, path: str) -> dict:
+    target, error = _resolve(workspace, path)
+    if error:
+        return error
+    rel = target.relative_to(workspace.resolve()).as_posix()
+    if not target.exists():
+        return _error("FILE_NOT_FOUND", f"Không tìm thấy thư mục: {rel}")
+    if not target.is_dir():
+        return _error("NOT_A_DIRECTORY", f"Đây là file, không phải thư mục: {rel}")
+    entries = []
+    for item in sorted(target.iterdir(), key=lambda p: p.name):
+        item_rel = item.relative_to(workspace.resolve()).as_posix()
+        item_type = "directory" if item.is_dir() else "file"
+        entries.append({"name": item.name, "path": item_rel, "type": item_type})
+    return {"ok": True, "path": rel, "entries": entries}
+
+
 @tool
 def read_file(path: str) -> str:
     """Đọc một file văn bản UTF-8 trong workspace và trả về JSON.
@@ -93,3 +110,16 @@ def write_file(path: str, content: str) -> str:
     Thành công: {"ok": true, "path": ..., "bytes": ..., "status": "created" | "updated"}. Lỗi: {"ok": false, "error": {...}}.
     """
     return json.dumps(_write(paths.WORKSPACE_DIR, path, content), ensure_ascii=False)
+
+
+@tool
+def list_files(path: str) -> str:
+    """Liệt kê các file và thư mục con trực tiếp trong một thư mục thuộc workspace và trả về JSON.
+
+    path là đường dẫn tương đối workspace, ví dụ: data, data/policies. Dùng path="." để liệt kê thư mục gốc workspace.
+    Không duyệt đệ quy. Sắp xếp theo tên.
+    Thành công: {"ok": true, "path": ..., "entries": [{"name": ..., "path": ..., "type": "file" | "directory"}]}.
+    Lỗi: {"ok": false, "error": {"code": ..., "message": ...}}.
+    """
+    return json.dumps(_list(paths.WORKSPACE_DIR, path), ensure_ascii=False)
+
