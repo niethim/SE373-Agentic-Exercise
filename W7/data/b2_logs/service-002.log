@@ -1,0 +1,44 @@
+[2026-10-27T08:31:57.684Z] [worker-2] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:55:53.431Z] [worker-2] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:55:21.719Z] [worker-2] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:55:40.104Z] [worker-2] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:11:17.450Z] [worker-2] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:55:52.207Z] [worker-2] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:12:45.263Z] [worker-2] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:11:22.472Z] [worker-2] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:11:17.679Z] [worker-2] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:18:31.582Z] [worker-2] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:43:26.350Z] [worker-2] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:59:18.895Z] [worker-2] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:46:29.771Z] [worker-2] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:50:26.516Z] [worker-2] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:43:14.266Z] [worker-2] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:25:20.223Z] [worker-2] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:32:50.128Z] [worker-2] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:59:45.646Z] [worker-2] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:44:47.891Z] [worker-2] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:30:53.911Z] [worker-2] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:31:54.904Z] [worker-2] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:35:33.509Z] [worker-2] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:11:44.227Z] [worker-2] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:16:47.830Z] [worker-2] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:46:23.882Z] [worker-2] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:43:17.768Z] [worker-2] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:30:53.480Z] [worker-2] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:41:58.300Z] [worker-2] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:54:51.204Z] [worker-2] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:20:10.995Z] [worker-2] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:54:35.541Z] [worker-2] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:44:39.749Z] [worker-2] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:34:27.851Z] [worker-2] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:50:16.134Z] [worker-2] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:25:42.520Z] [worker-2] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:22:27.225Z] [worker-2] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:26:38.177Z] [worker-2] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:15:27.820Z] [worker-2] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:25:10.736Z] [worker-2] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:59:59.926Z] [worker-2] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:59:59.748Z] [worker-2] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:59:59.771Z] [worker-2] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:59:59.493Z] [worker-2] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:59:59.926Z] [worker-2] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP

@@ -1,0 +1,43 @@
+[2026-10-27T08:52:39.833Z] [worker-39] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:47:50.946Z] [worker-39] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:14:36.565Z] [worker-39] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:40:22.428Z] [worker-39] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:18:18.234Z] [worker-39] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:15:35.403Z] [worker-39] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:10:10.633Z] [worker-39] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:16:48.148Z] [worker-39] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:38:36.361Z] [worker-39] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:54:35.378Z] [worker-39] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:59:36.262Z] [worker-39] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:45:54.526Z] [worker-39] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:34:52.383Z] [worker-39] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:59:19.250Z] [worker-39] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:20:25.932Z] [worker-39] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:32:32.934Z] [worker-39] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:30:47.240Z] [worker-39] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:21:19.936Z] [worker-39] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:26:44.122Z] [worker-39] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:38:12.498Z] [worker-39] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:25:31.514Z] [worker-39] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:14:22.953Z] [worker-39] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:54:16.873Z] [worker-39] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:47:11.303Z] [worker-39] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:52:55.653Z] [worker-39] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:31:18.306Z] [worker-39] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:15:20.641Z] [worker-39] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:18:58.687Z] [worker-39] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:17:31.283Z] [worker-39] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:53:48.374Z] [worker-39] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:11:12.487Z] [worker-39] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:22:42.702Z] [worker-39] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:40:23.432Z] [worker-39] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:37:40.120Z] [worker-39] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:16:50.975Z] [worker-39] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:41:58.773Z] [worker-39] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:34:41.526Z] [worker-39] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:13:56.912Z] [worker-39] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:50:39.879Z] [worker-39] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:59:59.378Z] [worker-39] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:59:59.712Z] [worker-39] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:59:59.785Z] [worker-39] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:59:59.780Z] [worker-39] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0

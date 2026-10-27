@@ -1,0 +1,39 @@
+[2026-10-27T08:23:20.611Z] [worker-86] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:40:24.198Z] [worker-86] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:19:35.879Z] [worker-86] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:11:50.481Z] [worker-86] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:59:44.384Z] [worker-86] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:20:41.931Z] [worker-86] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:35:37.852Z] [worker-86] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:35:22.284Z] [worker-86] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:46:23.722Z] [worker-86] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:24:39.975Z] [worker-86] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:50:29.869Z] [worker-86] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:37:54.652Z] [worker-86] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:10:41.228Z] [worker-86] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:23:13.400Z] [worker-86] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:16:23.378Z] [worker-86] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:31:16.336Z] [worker-86] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:39:26.831Z] [worker-86] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:12:23.797Z] [worker-86] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:58:38.994Z] [worker-86] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:57:24.179Z] [worker-86] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:29:34.779Z] [worker-86] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:54:24.417Z] [worker-86] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:22:44.588Z] [worker-86] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:58:38.381Z] [worker-86] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:53:15.232Z] [worker-86] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:29:25.694Z] [worker-86] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:26:12.590Z] [worker-86] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:27:57.365Z] [worker-86] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:28:49.503Z] [worker-86] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:12:36.220Z] [worker-86] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:45:22.103Z] [worker-86] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:41:57.841Z] [worker-86] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:39:52.638Z] [worker-86] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:23:18.455Z] [worker-86] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:16:56.730Z] [worker-86] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:40:27.740Z] [worker-86] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:41:37.279Z] [worker-86] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:32:36.627Z] [worker-86] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:57:28.422Z] [worker-86] INFO: Worker thread pool initialized with 16 workers

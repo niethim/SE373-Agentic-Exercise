@@ -1,0 +1,46 @@
+[2026-10-27T08:41:55.501Z] [worker-17] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:12:12.454Z] [worker-17] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:57:49.827Z] [worker-17] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:12:43.916Z] [worker-17] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:49:41.120Z] [worker-17] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:47:48.407Z] [worker-17] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:55:22.906Z] [worker-17] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:46:20.555Z] [worker-17] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:42:52.358Z] [worker-17] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:11:27.198Z] [worker-17] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:56:35.256Z] [worker-17] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:45:46.564Z] [worker-17] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:28:37.395Z] [worker-17] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:22:14.887Z] [worker-17] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:15:44.279Z] [worker-17] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:20:26.368Z] [worker-17] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:44:14.781Z] [worker-17] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:41:43.815Z] [worker-17] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:43:31.785Z] [worker-17] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:59:12.848Z] [worker-17] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:39:57.694Z] [worker-17] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:28:54.211Z] [worker-17] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:24:58.159Z] [worker-17] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:43:43.475Z] [worker-17] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:59:39.507Z] [worker-17] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:30:52.423Z] [worker-17] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:39:59.867Z] [worker-17] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:45:50.144Z] [worker-17] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:56:45.474Z] [worker-17] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:56:38.442Z] [worker-17] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:30:54.619Z] [worker-17] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:15:58.571Z] [worker-17] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:26:34.995Z] [worker-17] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:36:41.861Z] [worker-17] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:38:31.597Z] [worker-17] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:52:51.253Z] [worker-17] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:27:33.258Z] [worker-17] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:25:42.732Z] [worker-17] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:49:17.496Z] [worker-17] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:59:59.627Z] [worker-17] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:59:59.458Z] [worker-17] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:59:59.600Z] [worker-17] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:59:59.451Z] [worker-17] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:59:59.624Z] [worker-17] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:59:59.656Z] [worker-17] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:59:59.734Z] [worker-17] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0

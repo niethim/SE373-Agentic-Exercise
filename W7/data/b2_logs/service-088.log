@@ -1,0 +1,39 @@
+[2026-10-27T08:17:26.288Z] [worker-88] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:12:45.113Z] [worker-88] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:10:56.461Z] [worker-88] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:13:21.762Z] [worker-88] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:15:28.255Z] [worker-88] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:28:54.937Z] [worker-88] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:23:27.785Z] [worker-88] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:10:53.264Z] [worker-88] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:28:11.516Z] [worker-88] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:29:42.377Z] [worker-88] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:45:52.699Z] [worker-88] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:40:40.688Z] [worker-88] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:41:38.370Z] [worker-88] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:58:35.969Z] [worker-88] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:41:48.635Z] [worker-88] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:21:19.618Z] [worker-88] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:17:13.751Z] [worker-88] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:53:49.409Z] [worker-88] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:26:54.916Z] [worker-88] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:42:40.951Z] [worker-88] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:23:26.631Z] [worker-88] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:10:57.636Z] [worker-88] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:47:46.369Z] [worker-88] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:43:46.514Z] [worker-88] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:24:31.330Z] [worker-88] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:10:36.892Z] [worker-88] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:12:18.572Z] [worker-88] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:46:10.868Z] [worker-88] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:21:13.343Z] [worker-88] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:28:29.366Z] [worker-88] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:27:51.255Z] [worker-88] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:56:57.259Z] [worker-88] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:45:12.510Z] [worker-88] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:51:22.892Z] [worker-88] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:14:12.206Z] [worker-88] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:48:52.337Z] [worker-88] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:51:20.863Z] [worker-88] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:26:56.342Z] [worker-88] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:21:12.720Z] [worker-88] DEBUG: Cache hit for key user_session_payload

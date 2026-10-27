@@ -1,0 +1,39 @@
+[2026-10-27T08:39:56.248Z] [worker-68] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:14:43.140Z] [worker-68] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:12:38.945Z] [worker-68] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:51:46.558Z] [worker-68] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:17:22.268Z] [worker-68] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:16:15.179Z] [worker-68] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:39:36.909Z] [worker-68] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:52:54.593Z] [worker-68] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:12:28.317Z] [worker-68] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:29:30.209Z] [worker-68] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:13:34.497Z] [worker-68] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:25:54.279Z] [worker-68] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:17:41.467Z] [worker-68] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:41:39.442Z] [worker-68] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:33:46.854Z] [worker-68] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:37:36.152Z] [worker-68] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:17:17.365Z] [worker-68] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:54:46.761Z] [worker-68] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:58:58.184Z] [worker-68] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:43:59.144Z] [worker-68] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:11:49.695Z] [worker-68] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:31:23.207Z] [worker-68] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:23:11.381Z] [worker-68] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:22:42.239Z] [worker-68] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:30:24.660Z] [worker-68] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:24:44.925Z] [worker-68] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:16:12.356Z] [worker-68] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:52:40.858Z] [worker-68] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:34:29.886Z] [worker-68] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:26:24.599Z] [worker-68] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:17:58.365Z] [worker-68] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:16:53.991Z] [worker-68] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:21:57.153Z] [worker-68] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:30:22.497Z] [worker-68] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:11:50.300Z] [worker-68] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:53:50.764Z] [worker-68] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:40:27.940Z] [worker-68] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:54:17.653Z] [worker-68] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:27:14.349Z] [worker-68] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms

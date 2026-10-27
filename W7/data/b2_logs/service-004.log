@@ -1,0 +1,47 @@
+[2026-10-27T08:52:52.258Z] [worker-4] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:15:51.803Z] [worker-4] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:13:12.755Z] [worker-4] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:17:53.228Z] [worker-4] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:42:46.503Z] [worker-4] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:34:45.972Z] [worker-4] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:33:17.669Z] [worker-4] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:58:14.664Z] [worker-4] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:37:52.884Z] [worker-4] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:40:51.510Z] [worker-4] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:44:46.451Z] [worker-4] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:26:36.737Z] [worker-4] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:14:50.754Z] [worker-4] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:46:40.716Z] [worker-4] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:58:56.179Z] [worker-4] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:33:23.415Z] [worker-4] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:30:56.840Z] [worker-4] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:52:15.492Z] [worker-4] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:41:40.577Z] [worker-4] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:48:15.112Z] [worker-4] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:36:54.219Z] [worker-4] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:38:23.570Z] [worker-4] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:47:18.377Z] [worker-4] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:50:13.635Z] [worker-4] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:55:13.851Z] [worker-4] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:22:46.107Z] [worker-4] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:13:45.423Z] [worker-4] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:12:33.900Z] [worker-4] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:17:55.430Z] [worker-4] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:20:28.441Z] [worker-4] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:50:44.391Z] [worker-4] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:19:15.437Z] [worker-4] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:13:54.133Z] [worker-4] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:57:29.797Z] [worker-4] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:11:20.230Z] [worker-4] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:29:40.494Z] [worker-4] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:56:37.592Z] [worker-4] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:19:32.845Z] [worker-4] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:29:40.791Z] [worker-4] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:59:59.681Z] [worker-4] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:59:59.370Z] [worker-4] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:59:59.588Z] [worker-4] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:59:59.995Z] [worker-4] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:59:59.270Z] [worker-4] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:59:59.518Z] [worker-4] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:59:59.263Z] [worker-4] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:59:59.324Z] [worker-4] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP

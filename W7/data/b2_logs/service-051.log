@@ -1,0 +1,40 @@
+[2026-10-27T08:53:49.346Z] [worker-51] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:44:16.172Z] [worker-51] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:11:50.492Z] [worker-51] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:15:38.984Z] [worker-51] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:55:26.879Z] [worker-51] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:28:19.975Z] [worker-51] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:15:56.980Z] [worker-51] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:16:35.383Z] [worker-51] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:54:34.176Z] [worker-51] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:39:12.639Z] [worker-51] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:51:11.581Z] [worker-51] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:50:57.152Z] [worker-51] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:27:27.569Z] [worker-51] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:20:43.903Z] [worker-51] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:47:34.947Z] [worker-51] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:20:44.287Z] [worker-51] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:26:37.916Z] [worker-51] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:49:46.581Z] [worker-51] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:37:45.343Z] [worker-51] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:26:46.992Z] [worker-51] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:58:51.998Z] [worker-51] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:25:30.435Z] [worker-51] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:31:17.707Z] [worker-51] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:11:44.563Z] [worker-51] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:51:50.522Z] [worker-51] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:57:38.365Z] [worker-51] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:36:57.375Z] [worker-51] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:55:42.631Z] [worker-51] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:35:37.841Z] [worker-51] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:50:36.358Z] [worker-51] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:51:42.455Z] [worker-51] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:54:46.955Z] [worker-51] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:22:35.338Z] [worker-51] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:14:44.216Z] [worker-51] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:44:42.794Z] [worker-51] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:46:26.667Z] [worker-51] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:42:45.770Z] [worker-51] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:33:19.116Z] [worker-51] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:46:35.313Z] [worker-51] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:59:59.363Z] [worker-51] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP

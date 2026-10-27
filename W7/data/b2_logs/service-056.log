@@ -1,0 +1,39 @@
+[2026-10-27T08:40:23.523Z] [worker-56] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:32:53.631Z] [worker-56] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:48:11.976Z] [worker-56] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:15:18.374Z] [worker-56] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:43:40.614Z] [worker-56] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:56:19.946Z] [worker-56] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:42:19.381Z] [worker-56] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:41:34.672Z] [worker-56] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:41:25.804Z] [worker-56] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:43:53.880Z] [worker-56] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:14:47.434Z] [worker-56] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:10:46.608Z] [worker-56] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:40:28.667Z] [worker-56] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:46:26.194Z] [worker-56] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:50:28.749Z] [worker-56] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:14:20.353Z] [worker-56] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:26:22.336Z] [worker-56] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:18:46.363Z] [worker-56] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:32:31.658Z] [worker-56] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:35:17.320Z] [worker-56] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:14:29.161Z] [worker-56] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:43:27.428Z] [worker-56] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:42:33.702Z] [worker-56] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:55:33.464Z] [worker-56] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:32:18.659Z] [worker-56] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:50:40.521Z] [worker-56] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:57:44.569Z] [worker-56] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:41:11.980Z] [worker-56] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:39:55.318Z] [worker-56] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:28:34.254Z] [worker-56] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:42:35.214Z] [worker-56] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:49:31.168Z] [worker-56] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:58:47.638Z] [worker-56] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:56:10.882Z] [worker-56] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:22:43.798Z] [worker-56] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:35:42.511Z] [worker-56] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:11:23.124Z] [worker-56] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:10:10.304Z] [worker-56] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:25:43.162Z] [worker-56] INFO: Worker thread pool initialized with 16 workers

@@ -1,0 +1,39 @@
+[2026-10-27T08:22:28.194Z] [worker-94] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:16:37.487Z] [worker-94] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:28:30.571Z] [worker-94] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:37:14.851Z] [worker-94] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:37:32.833Z] [worker-94] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:48:50.363Z] [worker-94] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:54:17.653Z] [worker-94] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:15:57.577Z] [worker-94] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:39:11.910Z] [worker-94] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:51:11.596Z] [worker-94] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:39:59.135Z] [worker-94] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:36:20.344Z] [worker-94] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:55:47.698Z] [worker-94] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:28:11.545Z] [worker-94] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:52:53.950Z] [worker-94] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:37:21.947Z] [worker-94] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:34:30.514Z] [worker-94] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:14:47.797Z] [worker-94] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:31:51.858Z] [worker-94] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:46:24.528Z] [worker-94] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:28:48.867Z] [worker-94] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:17:43.576Z] [worker-94] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:53:39.103Z] [worker-94] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:12:20.691Z] [worker-94] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:50:16.688Z] [worker-94] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:56:56.783Z] [worker-94] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:54:21.568Z] [worker-94] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:27:27.824Z] [worker-94] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:58:51.644Z] [worker-94] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:51:52.854Z] [worker-94] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:44:36.509Z] [worker-94] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:18:14.628Z] [worker-94] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:53:24.403Z] [worker-94] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:56:11.973Z] [worker-94] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:27:50.228Z] [worker-94] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:49:27.140Z] [worker-94] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:25:27.678Z] [worker-94] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:10:24.244Z] [worker-94] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:27:14.181Z] [worker-94] INFO: Outgoing webhook dispatched successfully to payment-gateway

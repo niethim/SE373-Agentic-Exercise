@@ -1,0 +1,39 @@
+[2026-10-27T08:22:37.244Z] [worker-83] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:30:39.644Z] [worker-83] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:15:52.434Z] [worker-83] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:34:16.738Z] [worker-83] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:34:57.172Z] [worker-83] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:49:45.939Z] [worker-83] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:34:13.272Z] [worker-83] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:49:56.955Z] [worker-83] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:34:22.497Z] [worker-83] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:54:24.939Z] [worker-83] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:37:35.192Z] [worker-83] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:16:32.339Z] [worker-83] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:25:57.792Z] [worker-83] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:31:16.123Z] [worker-83] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:25:12.576Z] [worker-83] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:48:10.740Z] [worker-83] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:17:30.888Z] [worker-83] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:16:59.764Z] [worker-83] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:35:39.414Z] [worker-83] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:47:32.485Z] [worker-83] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:17:39.174Z] [worker-83] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:28:58.719Z] [worker-83] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:43:30.838Z] [worker-83] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:19:17.765Z] [worker-83] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:44:15.763Z] [worker-83] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:26:14.810Z] [worker-83] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:15:45.590Z] [worker-83] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:21:27.606Z] [worker-83] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:56:10.217Z] [worker-83] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:31:41.187Z] [worker-83] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:36:41.953Z] [worker-83] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:40:25.557Z] [worker-83] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:54:52.576Z] [worker-83] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:50:40.341Z] [worker-83] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:36:42.440Z] [worker-83] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:31:20.900Z] [worker-83] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:10:57.720Z] [worker-83] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:31:32.345Z] [worker-83] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:15:16.205Z] [worker-83] DEBUG: Cache hit for key user_session_payload

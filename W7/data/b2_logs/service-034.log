@@ -1,0 +1,43 @@
+[2026-10-27T08:35:46.395Z] [worker-34] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:48:10.467Z] [worker-34] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:25:25.905Z] [worker-34] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:24:51.667Z] [worker-34] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:24:39.309Z] [worker-34] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:46:36.451Z] [worker-34] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:59:40.672Z] [worker-34] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:22:37.320Z] [worker-34] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:46:43.776Z] [worker-34] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:19:58.310Z] [worker-34] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:30:37.227Z] [worker-34] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:36:23.820Z] [worker-34] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:19:43.796Z] [worker-34] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:56:55.583Z] [worker-34] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:17:40.712Z] [worker-34] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:23:40.654Z] [worker-34] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:39:40.400Z] [worker-34] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:13:58.810Z] [worker-34] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:45:57.673Z] [worker-34] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:29:10.463Z] [worker-34] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:27:26.723Z] [worker-34] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:51:28.794Z] [worker-34] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:58:47.813Z] [worker-34] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:56:34.900Z] [worker-34] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:46:59.485Z] [worker-34] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:21:16.622Z] [worker-34] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:36:28.304Z] [worker-34] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:49:39.184Z] [worker-34] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:28:58.594Z] [worker-34] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:46:22.447Z] [worker-34] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:47:47.386Z] [worker-34] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:56:31.557Z] [worker-34] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:34:17.854Z] [worker-34] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:41:16.102Z] [worker-34] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:10:50.290Z] [worker-34] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:36:22.427Z] [worker-34] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:53:23.160Z] [worker-34] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:23:38.501Z] [worker-34] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:26:15.267Z] [worker-34] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:59:59.162Z] [worker-34] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:59:59.771Z] [worker-34] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:59:59.965Z] [worker-34] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:59:59.510Z] [worker-34] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0

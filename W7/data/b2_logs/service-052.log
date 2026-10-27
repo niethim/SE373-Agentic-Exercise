@@ -1,0 +1,46 @@
+[2026-10-27T08:28:58.807Z] [worker-52] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:46:57.548Z] [worker-52] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:33:48.266Z] [worker-52] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:38:19.688Z] [worker-52] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:22:38.127Z] [worker-52] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:24:30.413Z] [worker-52] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:50:24.905Z] [worker-52] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:16:24.300Z] [worker-52] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:21:50.524Z] [worker-52] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:23:27.521Z] [worker-52] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:38:16.865Z] [worker-52] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:10:38.659Z] [worker-52] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:59:35.273Z] [worker-52] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:23:25.186Z] [worker-52] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:13:31.115Z] [worker-52] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:37:33.981Z] [worker-52] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:11:11.239Z] [worker-52] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:40:23.598Z] [worker-52] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:30:50.501Z] [worker-52] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:10:16.318Z] [worker-52] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:32:29.933Z] [worker-52] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:16:53.124Z] [worker-52] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:52:16.766Z] [worker-52] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:57:19.487Z] [worker-52] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:28:38.111Z] [worker-52] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:43:45.650Z] [worker-52] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:31:12.929Z] [worker-52] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:22:16.637Z] [worker-52] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:38:53.914Z] [worker-52] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:45:46.377Z] [worker-52] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:59:57.296Z] [worker-52] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:52:47.167Z] [worker-52] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:55:42.633Z] [worker-52] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:29:54.363Z] [worker-52] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:55:34.447Z] [worker-52] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:51:42.952Z] [worker-52] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:55:35.255Z] [worker-52] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:24:57.402Z] [worker-52] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:12:15.147Z] [worker-52] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:59:59.459Z] [worker-52] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:59:59.465Z] [worker-52] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:59:59.345Z] [worker-52] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:59:59.841Z] [worker-52] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:59:59.610Z] [worker-52] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:59:59.480Z] [worker-52] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:59:59.744Z] [worker-52] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0

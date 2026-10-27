@@ -1,0 +1,41 @@
+[2026-10-27T08:54:55.296Z] [worker-57] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:16:47.831Z] [worker-57] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:49:56.492Z] [worker-57] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:45:12.966Z] [worker-57] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:24:25.363Z] [worker-57] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:10:49.790Z] [worker-57] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:29:28.261Z] [worker-57] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:52:11.274Z] [worker-57] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:46:30.484Z] [worker-57] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:42:17.355Z] [worker-57] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:32:20.968Z] [worker-57] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:57:37.149Z] [worker-57] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:24:14.535Z] [worker-57] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:34:14.418Z] [worker-57] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:19:17.880Z] [worker-57] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:47:21.581Z] [worker-57] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:13:41.796Z] [worker-57] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:37:23.989Z] [worker-57] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:47:10.638Z] [worker-57] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:51:31.542Z] [worker-57] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:39:33.194Z] [worker-57] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:56:29.511Z] [worker-57] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:58:44.394Z] [worker-57] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:15:40.657Z] [worker-57] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:49:23.116Z] [worker-57] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:12:12.438Z] [worker-57] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:36:46.367Z] [worker-57] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:46:50.523Z] [worker-57] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:35:52.121Z] [worker-57] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:18:53.138Z] [worker-57] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:11:56.160Z] [worker-57] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:55:12.940Z] [worker-57] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:27:21.941Z] [worker-57] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:13:56.707Z] [worker-57] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:51:40.858Z] [worker-57] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:38:35.720Z] [worker-57] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:56:36.206Z] [worker-57] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:16:48.793Z] [worker-57] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:11:41.480Z] [worker-57] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:59:59.314Z] [worker-57] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:59:59.985Z] [worker-57] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP

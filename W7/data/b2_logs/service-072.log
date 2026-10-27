@@ -1,0 +1,39 @@
+[2026-10-27T08:58:53.651Z] [worker-72] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:14:24.565Z] [worker-72] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:54:45.886Z] [worker-72] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:37:39.697Z] [worker-72] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:26:30.939Z] [worker-72] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:23:34.601Z] [worker-72] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:22:49.592Z] [worker-72] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:56:49.111Z] [worker-72] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:53:25.908Z] [worker-72] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:20:36.506Z] [worker-72] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:37:50.667Z] [worker-72] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:34:43.384Z] [worker-72] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:13:35.567Z] [worker-72] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:27:31.906Z] [worker-72] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:45:45.182Z] [worker-72] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:39:20.764Z] [worker-72] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:27:30.795Z] [worker-72] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:14:10.413Z] [worker-72] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:32:39.300Z] [worker-72] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:33:31.568Z] [worker-72] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:43:36.938Z] [worker-72] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:31:32.702Z] [worker-72] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:29:38.373Z] [worker-72] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:47:20.911Z] [worker-72] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:39:50.562Z] [worker-72] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:45:35.370Z] [worker-72] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:56:45.556Z] [worker-72] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:31:25.296Z] [worker-72] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:31:29.912Z] [worker-72] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:24:20.932Z] [worker-72] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:56:23.463Z] [worker-72] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:10:39.850Z] [worker-72] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:26:27.579Z] [worker-72] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:41:54.550Z] [worker-72] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:56:26.738Z] [worker-72] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:47:51.301Z] [worker-72] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:44:45.524Z] [worker-72] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:21:58.466Z] [worker-72] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:18:33.323Z] [worker-72] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms

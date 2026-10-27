@@ -1,0 +1,41 @@
+[2026-10-27T08:37:49.960Z] [worker-15] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:20:52.318Z] [worker-15] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:27:12.688Z] [worker-15] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:57:31.629Z] [worker-15] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:14:36.110Z] [worker-15] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:34:13.855Z] [worker-15] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:43:17.498Z] [worker-15] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:23:18.431Z] [worker-15] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:32:18.244Z] [worker-15] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:52:26.589Z] [worker-15] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:26:58.486Z] [worker-15] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:51:57.131Z] [worker-15] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:32:52.257Z] [worker-15] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:59:43.429Z] [worker-15] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:32:56.294Z] [worker-15] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:11:48.313Z] [worker-15] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:28:36.335Z] [worker-15] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:31:40.611Z] [worker-15] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:25:40.353Z] [worker-15] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:58:26.664Z] [worker-15] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:25:26.719Z] [worker-15] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:41:59.518Z] [worker-15] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:16:44.330Z] [worker-15] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:11:34.521Z] [worker-15] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:16:34.289Z] [worker-15] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:58:11.921Z] [worker-15] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:15:37.930Z] [worker-15] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:15:20.358Z] [worker-15] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:34:49.769Z] [worker-15] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:19:50.369Z] [worker-15] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:38:27.602Z] [worker-15] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:18:11.692Z] [worker-15] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:33:59.133Z] [worker-15] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:25:33.825Z] [worker-15] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:58:34.629Z] [worker-15] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:57:14.729Z] [worker-15] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:46:20.496Z] [worker-15] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:56:26.311Z] [worker-15] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:18:20.521Z] [worker-15] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:59:59.966Z] [worker-15] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:59:59.404Z] [worker-15] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0

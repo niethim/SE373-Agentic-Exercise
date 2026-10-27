@@ -1,0 +1,41 @@
+[2026-10-27T08:12:33.917Z] [worker-32] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:57:45.180Z] [worker-32] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:38:24.403Z] [worker-32] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:33:44.417Z] [worker-32] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:16:54.922Z] [worker-32] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:14:13.524Z] [worker-32] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:11:42.321Z] [worker-32] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:53:30.833Z] [worker-32] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:34:11.861Z] [worker-32] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:49:33.703Z] [worker-32] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:59:17.494Z] [worker-32] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:53:48.206Z] [worker-32] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:31:23.591Z] [worker-32] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:43:29.571Z] [worker-32] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:10:28.986Z] [worker-32] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:40:51.439Z] [worker-32] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:34:34.131Z] [worker-32] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:28:45.112Z] [worker-32] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:12:22.493Z] [worker-32] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:15:23.621Z] [worker-32] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:43:47.404Z] [worker-32] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:34:26.411Z] [worker-32] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:25:58.579Z] [worker-32] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:32:44.249Z] [worker-32] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:32:59.162Z] [worker-32] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:15:28.174Z] [worker-32] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:22:46.916Z] [worker-32] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:48:52.207Z] [worker-32] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:22:50.819Z] [worker-32] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:37:43.329Z] [worker-32] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:59:13.805Z] [worker-32] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:14:53.495Z] [worker-32] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:30:33.429Z] [worker-32] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:25:28.599Z] [worker-32] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:51:33.727Z] [worker-32] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:23:37.508Z] [worker-32] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:58:39.606Z] [worker-32] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:22:50.200Z] [worker-32] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:28:52.214Z] [worker-32] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:59:59.126Z] [worker-32] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:59:59.870Z] [worker-32] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP

@@ -1,0 +1,39 @@
+[2026-10-27T08:52:39.555Z] [worker-26] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:32:32.645Z] [worker-26] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:40:47.725Z] [worker-26] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:36:54.103Z] [worker-26] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:55:11.618Z] [worker-26] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:45:11.968Z] [worker-26] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:41:43.694Z] [worker-26] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:11:37.199Z] [worker-26] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:56:38.366Z] [worker-26] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:20:52.389Z] [worker-26] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:49:54.869Z] [worker-26] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:53:46.839Z] [worker-26] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:42:58.249Z] [worker-26] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:56:44.149Z] [worker-26] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:25:55.167Z] [worker-26] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:13:53.272Z] [worker-26] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:48:47.961Z] [worker-26] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:41:29.453Z] [worker-26] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:20:51.316Z] [worker-26] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:32:51.254Z] [worker-26] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:48:49.305Z] [worker-26] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:58:54.373Z] [worker-26] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:47:14.961Z] [worker-26] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:29:33.226Z] [worker-26] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:44:51.788Z] [worker-26] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:24:43.458Z] [worker-26] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:22:28.868Z] [worker-26] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:35:45.661Z] [worker-26] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:26:59.627Z] [worker-26] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:43:18.770Z] [worker-26] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:56:32.650Z] [worker-26] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:41:10.738Z] [worker-26] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:51:54.293Z] [worker-26] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:56:22.134Z] [worker-26] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:35:30.470Z] [worker-26] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:44:36.750Z] [worker-26] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:14:28.818Z] [worker-26] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:43:28.291Z] [worker-26] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:49:28.510Z] [worker-26] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms

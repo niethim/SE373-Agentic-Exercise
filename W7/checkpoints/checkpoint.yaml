@@ -1,0 +1,18 @@
+goal: Fix refresh-token race condition
+current_state:
+  handler_implemented: true
+  tests_passing: false
+constraints:
+- Keep API backward compatible
+findings:
+- Failure occurs during concurrent refresh
+- Multiple simultaneous requests read the same initial token before the new one is
+  persisted
+failed_attempts:
+- Increasing token TTL did not help
+relevant_files:
+- auth.ts
+- session.ts
+- auth.test.ts
+next_action:
+- Inspect locking around refresh

@@ -1,0 +1,46 @@
+[2026-10-27T08:22:14.466Z] [worker-1] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:45:57.520Z] [worker-1] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:46:47.509Z] [worker-1] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:46:26.332Z] [worker-1] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:42:33.352Z] [worker-1] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:15:29.833Z] [worker-1] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:24:22.157Z] [worker-1] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:51:22.770Z] [worker-1] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:49:24.202Z] [worker-1] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:58:28.729Z] [worker-1] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:40:22.579Z] [worker-1] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:18:52.290Z] [worker-1] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:35:43.219Z] [worker-1] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:48:35.283Z] [worker-1] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:45:14.323Z] [worker-1] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:40:12.101Z] [worker-1] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:17:24.425Z] [worker-1] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:28:31.314Z] [worker-1] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:42:43.640Z] [worker-1] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:34:58.803Z] [worker-1] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:11:47.633Z] [worker-1] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:18:23.945Z] [worker-1] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:29:57.661Z] [worker-1] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:51:21.188Z] [worker-1] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:50:15.572Z] [worker-1] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:46:40.645Z] [worker-1] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:20:40.168Z] [worker-1] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:54:30.842Z] [worker-1] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:30:56.690Z] [worker-1] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:21:20.944Z] [worker-1] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:40:40.302Z] [worker-1] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:44:49.865Z] [worker-1] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:44:46.605Z] [worker-1] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:25:54.344Z] [worker-1] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:53:44.218Z] [worker-1] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:41:38.418Z] [worker-1] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:22:53.209Z] [worker-1] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:59:46.390Z] [worker-1] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:22:22.393Z] [worker-1] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:59:59.841Z] [worker-1] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:59:59.834Z] [worker-1] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:59:59.387Z] [worker-1] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:59:59.518Z] [worker-1] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:59:59.407Z] [worker-1] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:59:59.609Z] [worker-1] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
+[2026-10-27T08:59:59.705Z] [worker-1] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0

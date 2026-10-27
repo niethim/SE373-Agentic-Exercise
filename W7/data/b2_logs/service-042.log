@@ -1,0 +1,39 @@
+[2026-10-27T08:10:22.816Z] [worker-42] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:59:27.982Z] [worker-42] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:50:36.103Z] [worker-42] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:59:41.503Z] [worker-42] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:46:34.187Z] [worker-42] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:19:41.399Z] [worker-42] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:43:28.923Z] [worker-42] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:57:53.480Z] [worker-42] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:47:42.882Z] [worker-42] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:53:19.841Z] [worker-42] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:45:51.109Z] [worker-42] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:55:21.982Z] [worker-42] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:22:50.587Z] [worker-42] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:11:44.249Z] [worker-42] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:43:26.420Z] [worker-42] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:39:46.706Z] [worker-42] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:13:49.951Z] [worker-42] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:10:12.741Z] [worker-42] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:42:53.824Z] [worker-42] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:30:16.647Z] [worker-42] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:18:20.479Z] [worker-42] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:22:10.805Z] [worker-42] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:27:10.323Z] [worker-42] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:49:25.467Z] [worker-42] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:28:16.522Z] [worker-42] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:13:27.124Z] [worker-42] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:55:32.945Z] [worker-42] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:22:58.328Z] [worker-42] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:21:48.411Z] [worker-42] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:18:26.964Z] [worker-42] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:51:58.503Z] [worker-42] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:42:40.105Z] [worker-42] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:12:24.764Z] [worker-42] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:18:48.700Z] [worker-42] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:27:42.347Z] [worker-42] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:17:19.444Z] [worker-42] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:25:50.866Z] [worker-42] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:37:25.783Z] [worker-42] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:46:18.458Z] [worker-42] DEBUG: Garbage collection completed in 14ms

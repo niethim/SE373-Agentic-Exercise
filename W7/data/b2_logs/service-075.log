@@ -1,0 +1,41 @@
+[2026-10-27T08:35:55.553Z] [worker-75] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:54:46.773Z] [worker-75] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:17:52.702Z] [worker-75] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:37:36.285Z] [worker-75] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:30:35.290Z] [worker-75] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:47:18.519Z] [worker-75] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:44:55.837Z] [worker-75] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:10:37.237Z] [worker-75] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:33:42.166Z] [worker-75] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:36:40.205Z] [worker-75] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:28:40.287Z] [worker-75] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:53:22.348Z] [worker-75] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:44:26.248Z] [worker-75] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:17:32.665Z] [worker-75] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:19:18.243Z] [worker-75] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:26:51.527Z] [worker-75] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:27:46.457Z] [worker-75] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:16:26.286Z] [worker-75] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:21:25.499Z] [worker-75] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:42:49.567Z] [worker-75] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:26:32.262Z] [worker-75] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:25:39.265Z] [worker-75] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:26:25.508Z] [worker-75] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:58:43.670Z] [worker-75] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:59:37.521Z] [worker-75] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:22:20.434Z] [worker-75] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:42:19.628Z] [worker-75] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:59:56.275Z] [worker-75] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:30:16.165Z] [worker-75] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:22:53.599Z] [worker-75] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:26:48.288Z] [worker-75] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:38:22.560Z] [worker-75] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:44:44.495Z] [worker-75] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:52:12.504Z] [worker-75] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:37:45.408Z] [worker-75] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:12:56.415Z] [worker-75] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:40:13.430Z] [worker-75] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:43:29.174Z] [worker-75] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:47:26.720Z] [worker-75] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:59:59.453Z] [worker-75] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:59:59.669Z] [worker-75] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP

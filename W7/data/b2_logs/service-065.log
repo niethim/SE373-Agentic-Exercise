@@ -1,0 +1,42 @@
+[2026-10-27T08:47:57.479Z] [worker-65] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:21:17.278Z] [worker-65] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:15:16.168Z] [worker-65] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:57:57.102Z] [worker-65] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:28:45.523Z] [worker-65] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:49:55.198Z] [worker-65] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:37:47.643Z] [worker-65] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:37:17.123Z] [worker-65] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:33:21.547Z] [worker-65] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:56:43.462Z] [worker-65] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:25:41.244Z] [worker-65] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:18:37.634Z] [worker-65] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:25:41.655Z] [worker-65] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:49:49.773Z] [worker-65] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:27:22.302Z] [worker-65] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:15:46.412Z] [worker-65] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:33:16.800Z] [worker-65] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:10:49.664Z] [worker-65] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:52:57.638Z] [worker-65] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:32:33.361Z] [worker-65] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:23:25.241Z] [worker-65] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:19:59.782Z] [worker-65] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:34:57.266Z] [worker-65] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:33:13.602Z] [worker-65] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:30:14.382Z] [worker-65] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:40:36.304Z] [worker-65] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:13:37.529Z] [worker-65] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:29:21.633Z] [worker-65] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:28:54.533Z] [worker-65] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:55:21.987Z] [worker-65] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:37:11.295Z] [worker-65] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:23:36.971Z] [worker-65] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:57:46.282Z] [worker-65] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:14:50.716Z] [worker-65] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:15:34.381Z] [worker-65] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:17:28.748Z] [worker-65] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:44:44.526Z] [worker-65] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:53:41.270Z] [worker-65] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:24:27.303Z] [worker-65] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:59:59.917Z] [worker-65] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:59:59.286Z] [worker-65] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:59:59.409Z] [worker-65] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP

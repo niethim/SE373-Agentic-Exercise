@@ -1,0 +1,40 @@
+[2026-10-27T08:37:58.992Z] [worker-82] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:44:15.482Z] [worker-82] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:53:12.814Z] [worker-82] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:55:37.431Z] [worker-82] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:18:43.420Z] [worker-82] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:23:35.478Z] [worker-82] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:42:46.378Z] [worker-82] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:50:54.984Z] [worker-82] ERROR: Connection timeout after 30000ms at DatabasePool.acquireConnection
+[2026-10-27T08:54:31.787Z] [worker-82] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:22:29.468Z] [worker-82] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:44:25.105Z] [worker-82] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:34:43.944Z] [worker-82] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:38:43.406Z] [worker-82] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:14:28.493Z] [worker-82] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:53:48.918Z] [worker-82] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:43:39.364Z] [worker-82] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:35:59.386Z] [worker-82] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:56:20.561Z] [worker-82] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:35:45.845Z] [worker-82] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:40:55.654Z] [worker-82] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:56:35.572Z] [worker-82] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:31:34.962Z] [worker-82] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:19:44.486Z] [worker-82] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:50:40.698Z] [worker-82] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:54:30.692Z] [worker-82] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:29:20.414Z] [worker-82] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:30:47.345Z] [worker-82] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:49:31.899Z] [worker-82] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:21:28.665Z] [worker-82] ERROR: NullPointerException in PaymentService.processTransaction line 142
+[2026-10-27T08:34:55.605Z] [worker-82] DEBUG: Garbage collection completed in 14ms
+[2026-10-27T08:10:49.241Z] [worker-82] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:13:17.242Z] [worker-82] DEBUG: Cache hit for key user_session_payload
+[2026-10-27T08:39:56.893Z] [worker-82] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:36:13.827Z] [worker-82] INFO: Outgoing webhook dispatched successfully to payment-gateway
+[2026-10-27T08:59:28.211Z] [worker-82] INFO: Incoming HTTP GET /api/v1/health status=200 duration=2ms
+[2026-10-27T08:53:14.397Z] [worker-82] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:41:15.869Z] [worker-82] ERROR: JWT verification failed: TokenExpiredException at AuthGuard.canActivate
+[2026-10-27T08:56:59.846Z] [worker-82] INFO: Worker thread pool initialized with 16 workers
+[2026-10-27T08:51:57.849Z] [worker-82] WARN: Rate limit threshold exceeded: 429 Too Many Requests for client IP
+[2026-10-27T08:59:59.948Z] [worker-82] FATAL: DiskIOFailure: write operation aborted on /var/log/storage/replica-0
